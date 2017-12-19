@@ -21,7 +21,7 @@ const fs = require('fs');
 const terminal = new Terminal(process.stdout);
 
 //需要打包的文件,项目根目录的文件
-const reqUrlArr = ['a.bundle'];
+const reqUrlArr = ['index.bundle'];
 
 //项目跟路径
 const projectRoots = path.resolve(__dirname.slice(0,__dirname.indexOf('node_modules')));
