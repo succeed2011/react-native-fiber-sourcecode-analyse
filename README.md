@@ -11,5 +11,5 @@ RN版本0.51.0
 
 ```
 注：package.js中reqUrlArr变量中写的是入口js文件，可以写多个，比如入口文件为index1.js、index2.js，
-那么 reqUrlArr = ['index1.bundle', 'index2.bundle']
+    那么 reqUrlArr = ['index1.bundle', 'index2.bundle']
 ```
