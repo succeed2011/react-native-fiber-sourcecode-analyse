@@ -6,8 +6,8 @@ RN版本**0.51.0**
 
 为此我写了一个脚本文件。使用步骤为：
 1. 新建package.js文件，将文件放在`./node_modules/react-native`目录内；
-2. 在项目根目录上执行 node ./node_modules/react-native/package.js
-3. 打包后的js文件保存在项目根目录，后缀为`.bundle.js`
+2. 在项目根目录上执行 `node ./node_modules/react-native/package.js`;
+3. 打包后的js文件保存在项目根目录，后缀为`.bundle.js`.
 
 ```
 注: package.js中reqUrlArr变量中写的是入口js文件，可以写多个，比如入口文件为index1.js、index2.js，
