@@ -10,6 +10,8 @@ RN版本**0.51.0**
 3. 打包后的js文件保存在项目根目录，后缀为`.bundle.js`.
 
 ```
-注: package.js中reqUrlArr变量中写的是入口js文件，可以写多个，比如入口文件为index1.js、index2.js，
+注: 
+* 入口文件放在项目根目录中
+* package.js中reqUrlArr变量中写的是入口js文件，可以写多个，比如入口文件为index1.js、index2.js，
 那么 reqUrlArr = ['index1.bundle', 'index2.bundle']
 ```
