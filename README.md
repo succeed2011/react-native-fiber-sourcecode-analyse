@@ -15,3 +15,9 @@ RN版本**0.51.0**
 * package.js中reqUrlArr变量中写的是入口js文件，可以写多个，比如入口文件为index1.js、index2.js，
 那么 reqUrlArr = ['index1.bundle', 'index2.bundle']
 ```
+
+```
+RN为了打包效率高会把分析好的依赖关系存储在缓存文件中，这会导致有时候你修改的框架或者业务代码无法更新，我遇到过一次这个问题。
+可以将缓存文件删除（我的电脑是windows）：`C:\Users\ADMINI~1\AppData\Local\Temp\haste-map-metro-bundler....`
+具体代码是在 `node_modules\jest-haste-map\build\index.js`中的`this._cachePath`
+```
