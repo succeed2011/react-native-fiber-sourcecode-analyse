@@ -1,4 +1,4 @@
-出于业务需要，有时需要将base.js和业务代码分开打包，这时就需要修改打包代码，具体为：
+# 出于业务需要，有时需要将base.js和业务代码分开打包，这时就需要修改打包代码，具体为：
 
 1. 找到文件：node_modules\metro-bundler\src\Bundler\BundleBase.js
 2. BundleBase类中的getSource函数就是返回需要打包的模块，默认它会返回所有引用到的模块，我们需要在这里处理让它返回业务模块或者框架模块
