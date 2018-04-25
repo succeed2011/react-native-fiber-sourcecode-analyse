@@ -33,4 +33,4 @@ getSource(options) {
  }
 ```
 
-通过全局变量`global.bundleType`来区分当前打包的是框架代码还是业务代码，不设置的话会全打包
+通过全局变量`global.bundleType`来区分当前打包的是框架代码还是业务代码，不设置的话会全打包。
