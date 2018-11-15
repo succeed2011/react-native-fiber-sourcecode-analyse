@@ -1,3 +1,5 @@
+RN version: 0.51.0
+
 出于业务需要，有时需要将base.js和业务代码分开打包，这时就需要修改打包代码，具体为：
 
 1. 找到文件：node_modules\metro-bundler\src\Bundler\BundleBase.js
